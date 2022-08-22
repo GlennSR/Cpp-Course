@@ -1,0 +1,6 @@
+Use:
+1 - make <filename without sufix .cpp>
+
+or
+
+2 - g++ -o <outfile name> <infile name with sufix .cpp>
