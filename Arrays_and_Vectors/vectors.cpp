@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
     // vector<char> vowels; // emoty vector
     // vector<char> vowels(5); // 5 elements initialized with 0
