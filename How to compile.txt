@@ -4,3 +4,16 @@ Use:
 or
 
 2 - g++ -o <outfile name> <infile name with sufix .cpp>
+
+------------------------------------------------------------------------
+### FOR CLASSES
+
+g++ -c <class name>.cpp <main file name>.cpp (to generate the .o files)
+
+then
+
+g++ -o run <class name>.o <main file name>.o (to generate the run file)
+
+then
+
+./run (to run)

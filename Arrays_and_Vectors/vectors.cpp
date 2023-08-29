@@ -7,6 +7,14 @@ using namespace std;
 
 int main()
 {
+    int myints[] = {1,2,3,4,5,4,3,2,1};
+    vector<int> v(myints,myints+9);                         // 1 2 3 4 5 4 3 2 1
+
+    for(auto val: v)
+        cout << val << endl;
+    
+    cout << "-----------------------\n";
+
     // vector<char> vowels; // emoty vector
     // vector<char> vowels(5); // 5 elements initialized with 0
     vector<char> vowels {'a', 'e', 'i', 'o', 'u'};
